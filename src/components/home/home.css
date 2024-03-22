@@ -1,6 +1,6 @@
 .py-5 {
     padding-top: 9rem !important;
-    padding-bottom: 6rem !important;
+    padding-bottom: 5rem !important;
 }
 
 .btn {
@@ -16,6 +16,15 @@
     text-decoration: none;
     color: inherit;
 }
+
+.btn-danger{
+    background-color: rgb(212, 83, 83);;
+}
+
+.btn-danger a:hover{
+    background-color: rgb(226, 59, 59);
+}
+
 
 .btn svg{
     margin-left: 5px;
@@ -34,3 +43,15 @@
 .tittle-catalog h1 {
     padding: 20px;
 }
+
+.card {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    min-width: 300px; /* Ancho mínimo de la tarjeta */
+  }
+  
+  .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  }
