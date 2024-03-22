@@ -11,7 +11,7 @@ import "./home.css"
                   <p class="lead p-2">Nuestro innovador sistema de chat te permite obtener presupuestos personalizados y detallados para renovar cualquier espacio interior de tu hogar u oficina de manera rápida y conveniente. ¡Transforma tus espacios interiores con facilidad y sin complicaciones</p>
                   <button class="btn btn-outline-dark btn-lg rounded-pill"><a href='https://landbot.site/v3/H-2164207-UQ51GMH38BJ8CPPI/index.html'>¡Quiero cotizar!</a></button>
               </div>
-              <img src="../src/assets/large-14.jpg" alt="Italian Trulli" width="400" height="500" class="ms-md-3 mt-3 mt-md-0 p-2 rounded-end-5"></img>
+              <img src="src/assets/large-14.jpg" alt="Italian Trulli" width="400" height="500" class="ms-md-3 mt-3 mt-md-0 p-2 rounded-end-5"></img>
           </div>
       </section>
 
@@ -21,7 +21,7 @@ import "./home.css"
     <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card">
-      <img src="../src/assets/large-15.jpg" class="card-img-top" alt="Italian Trulli" width="200" height="310"/>
+      <img src="src/assets/large-15.jpg" class="card-img-top" alt="Italian Trulli" width="200" height="310"/>
       <div class="card-body">
         <h5 class="card-title">Cillum veniam</h5>
         <p class="card-text">Cillum proident ex anim qui occaecat id minim labore officia sint nulla consequat exercitation consectetur. Non elit dolor dolor consectetur.</p>
@@ -31,7 +31,7 @@ import "./home.css"
   </div>
   <div class="col">
     <div class="card">
-      <img src="../src/assets/large-16.jpg" class="card-img-top" alt="Italian Trulli" width="200" height="310"/>
+      <img src="src/assets/large-16.jpg" class="card-img-top" alt="Italian Trulli" width="200" height="310"/>
       <div class="card-body">
         <h5 class="card-title">Sint eiusmod</h5>
         <p class="card-text">Ipsum consectetur nulla proident dolor eu aliquip commodo et occaecat eiusmod. Consectetur nisi minim aliquip pariatur aliquip.</p>
@@ -41,7 +41,7 @@ import "./home.css"
   </div>
   <div class="col">
     <div class="card">
-      <img src="../src/assets/large-17.jpg" class="card-img-top" alt="Italian Trulli" width="200" height="310"/>
+      <img src="src/assets/large-17.jpg" class="card-img-top" alt="Italian Trulli" width="200" height="310"/>
       <div class="card-body">
         <h5 class="card-title">Exercitation sunt</h5>
         <p class="card-text">Laboris mollit culpa excepteur tempor dolor commodo sunt dolor. Aute ea exercitation pariatur ullamco velit eiusmod consectetur labore est veniam.</p>
