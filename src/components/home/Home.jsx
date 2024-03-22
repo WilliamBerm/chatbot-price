@@ -2,6 +2,24 @@ import React from 'react'
 import "./home.css"
 
       const Home = () => {
+        const initLandbot = () => {
+          if (!window.myLandbot) {
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.addEventListener('load', function() {
+              window.myLandbot = new Landbot.Popup({
+                configUrl: 'https://storage.googleapis.com/landbot.site/v3/H-2164207-UQ51GMH38BJ8CPPI/index.json',
+              });
+            });
+            s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+          } else {
+            window.myLandbot.open(); // Si Landbot ya está inicializado, abrirlo directamente
+          }
+        };
+      
         return (
           <div>
           <section class="py-5 text -center container">
@@ -9,7 +27,7 @@ import "./home.css"
               <div class="text-md-start">
                   <h1 class="display-4 fw-bold">¡Cotiza rápido, con estilo personalizado y online!</h1>
                   <p class="lead p-2">Nuestro innovador sistema de chat te permite obtener presupuestos personalizados y detallados para renovar cualquier espacio interior de tu hogar u oficina de manera rápida y conveniente. ¡Transforma tus espacios interiores con facilidad y sin complicaciones</p>
-                  <button class="btn btn-outline-dark btn-lg rounded-pill"><a href='https://landbot.site/v3/H-2164207-UQ51GMH38BJ8CPPI/index.html'>¡Quiero cotizar!</a></button>
+                  <button className="btn btn-outline-dark btn-lg rounded-pill" onClick={initLandbot}>¡Quiero cotizar!</button>
               </div>
               <img src="src/assets/large-14.jpg" alt="Italian Trulli" width="400" height="500" class="ms-md-3 mt-3 mt-md-0 p-2 rounded-end-5"></img>
           </div>
@@ -53,5 +71,4 @@ import "./home.css"
         </div>
       )
     }
-
 export default Home
