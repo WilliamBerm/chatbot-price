@@ -1,8 +1,7 @@
 {
   "name": "pricecalbotbs5",
-  "private": true,
   "version": "0.0.0",
-  "homepage": "https://WilliamBerm.github.io/chatbot-price",
+  "homepage": "https://Williamberm.github.io/chatbot-price",
   "type": "module",
   "scripts": {
     "dev": "vite",
