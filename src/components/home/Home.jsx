@@ -32,7 +32,6 @@ import "./home.css"
               <img src="src/assets/large-14.jpg" alt="Italian Trulli" width="400" height="500" class="ms-md-3 mt-3 mt-md-0 p-2 rounded-end-5"></img>
           </div>
       </section>
-
     <div class="d-flex tittle-catalog">
     <h2 class="float-md-start mb-0 fw-bold p-4">Catalogo</h2>
     </div>
@@ -71,4 +70,5 @@ import "./home.css"
         </div>
       )
     }
+    
 export default Home
