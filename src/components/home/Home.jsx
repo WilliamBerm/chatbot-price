@@ -9,7 +9,7 @@ import "./home.css"
             s.async = true;
             s.addEventListener('load', function() {
               window.myLandbot = new Landbot.Popup({
-                configUrl: 'https://storage.googleapis.com/landbot.site/v3/H-2164207-UQ51GMH38BJ8CPPI/index.json',
+                configUrl: 'https://storage.googleapis.com/landbot.site/v3/H-2167189-VQYZS1QPNXE73WB8/index.json',
               });
             });
             s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';
